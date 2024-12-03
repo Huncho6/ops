@@ -9,6 +9,7 @@ import OpsecNetwork from "./pages/OpsecNetwork";
 import ProjectsIn from "./pages/ProjectsIn";
 import Wallets from "./pages/Wallets";
 import Claim from "./pages/Claim";
+import Migration from "./pages/Migration";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <NavBar />
       <Home />
       <Claim />
+      <Migration />
       <ProjectsIn />
       <CloudVerse />
       <Cloudsec />
